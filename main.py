@@ -14,4 +14,5 @@ input_text = "this is world"
 sign = model.translate(input_text)
 
 # Show the sign language translation video
-sign.save("./output.avi")   # This opens the video window with gestures
+sign.show()   # This opens the video window with gestures
+sign.save("output.mp4")
