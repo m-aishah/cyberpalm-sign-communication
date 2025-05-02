@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+sign-language-translator
+python-multipart
